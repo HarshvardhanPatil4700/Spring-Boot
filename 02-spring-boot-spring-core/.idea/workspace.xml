@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b24f0415-0725-4834-8cba-6dc2fb970e7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/src/main/java/com/harsh/springcodedemo/SpringcodedemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-constructor-injection/src/test/java/com/harsh/springcodedemo/SpringcodedemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3HJZwFAV7iYUQ3kCuBIHLCvzFwQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Harsh/Desktop/dev-spring-boot/02-spring-boot-spring-core"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b24f0415-0725-4834-8cba-6dc2fb970e7c" name="Changes" comment="" />
+      <created>1785588369579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785588369579</updated>
+    </task>
+    <servers />
+  </component>
+</project>
