@@ -1,10 +1,10 @@
-package com.harsh.springcodedemo;
+package com.harsh.springcore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringcodedemoApplicationTests {
+class SpringcoreApplicationTests {
 
 	@Test
 	void contextLoads() {
