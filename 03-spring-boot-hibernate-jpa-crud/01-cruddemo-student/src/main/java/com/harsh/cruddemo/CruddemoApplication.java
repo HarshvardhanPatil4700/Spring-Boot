@@ -42,4 +42,25 @@ public class CruddemoApplication {
 /*
 @Bean tells Spring to create and manage the CommandLineRunner object. The CommandLineRunner runs automatically after Spring Boot starts and all beans are loaded. The lambda contains the code that will execute. So after the application starts, it prints Hello world.
 Flow: Spring Boot starts → Beans loaded → CommandLineRunner executes → "Hello world"
+
+working : You create a Student object → DAO passes it to EntityManager → Hibernate converts it into SQL → DataSource provides the DB connection → MySQL stores the student record.
+StudentDAO defines what to do, StudentDAOImpl defines how to do it, and Spring manages the objects through Dependency Injection.
+
+Application starts
+       ↓
+Spring Container creates beans
+       ↓
+CommandLineRunner runs
+       ↓
+Create Student Java object
+       ↓
+StudentDAO → StudentDAOImpl (call is due to @Repository which has component scanning and Translates JDBC exceptions)
+       			↓
+	EntityManager (JPA)
+       ↓
+Hibernate
+       ↓
+DataSource
+       ↓
+MySQL Database (saves the object)
  */
