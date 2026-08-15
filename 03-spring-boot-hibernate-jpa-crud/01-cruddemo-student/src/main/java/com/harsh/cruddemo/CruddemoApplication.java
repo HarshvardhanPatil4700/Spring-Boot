@@ -19,7 +19,8 @@ public class CruddemoApplication {
 		return runner -> {
 //			System.out.println("Hello world");
 
-			createStudent(studentDAO);
+			// createStudent(studentDAO);
+			createMultipleStudents(studentDAO);
 		};
 	}
 
@@ -38,6 +39,22 @@ public class CruddemoApplication {
 		System.out.println("Name: " + tempStudent.getFirstName() + " " + tempStudent.getLastName());
 		System.out.println("Email: " + tempStudent.getEmail());
 	}
+
+	private void createMultipleStudents(StudentDAO studentDAO) {
+
+		// create multiple students
+		System.out.println("Creating new student objects ...");
+		Student tempStudent1 = new Student("John","Doe","JohnDoe@abc.com");
+		Student tempStudent2 = new Student("Walter","White","WalterWW@abc.com");
+		Student tempStudent3 = new Student("Tony","Stark","IronMan@abc.com");
+
+		// save the student objects
+		System.out.println("Saving student objects ...");
+		studentDAO.save(tempStudent1);
+		studentDAO.save(tempStudent2);
+		studentDAO.save(tempStudent3);
+	}
+
 }
 /*
 @Bean tells Spring to create and manage the CommandLineRunner object. The CommandLineRunner runs automatically after Spring Boot starts and all beans are loaded. The lambda contains the code that will execute. So after the application starts, it prints Hello world.
