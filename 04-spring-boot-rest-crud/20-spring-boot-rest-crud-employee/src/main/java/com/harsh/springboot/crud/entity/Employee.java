@@ -1,9 +1,11 @@
 package com.harsh.springboot.crud.entity;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name="employee")
+@JsonPropertyOrder({"id", "firstName", "lastName", "email"})
 public class Employee {
     // define fields
     @Id
